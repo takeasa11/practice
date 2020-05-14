@@ -1,0 +1,74 @@
+h1{
+  color: red;
+}
+
+dl{
+  width: 990px;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+ 
+}
+
+dl dt{
+  float: left;
+  padding: 1em;
+  color: #998484;
+}
+
+dl dd{
+  border-bottom: 1px solid #cccccc;
+  margin: 0;
+  padding: 1em 0 1em 18em;
+}
+
+dl dt .must{
+  color: #d23939;
+}
+
+input[type="email"]{
+  width: 50%;
+}
+
+input{
+  font-size: 1em;
+  padding: 5px;
+
+}
+
+label{
+  margin-right: 1em;
+}
+
+select{
+  font-size: 1em;
+}
+
+textarea{
+  width: 30em;
+  font-size: 1em;
+  padding: 5px;
+}
+
+p.submit{
+  text-align: center;
+}
+
+input[type="submit"]{
+  padding: 20px 100px;
+  background-color: #7f6666;
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 7px red;
+}
+
+input[type="submit"]:hover{
+      opacity: 0.8;
+}
+
+input[type="submit"]:active{
+  box-shadow: 0  0 red;
+}

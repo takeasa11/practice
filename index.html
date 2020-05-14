@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>お問い合わせフォーム</title>
+</head>
+<body>
+  <h1>練習用なので実際にはお問い合わせできません</h1>
+  <form action="#">
+    <dl>
+      <dt>お問い合わせの種類</dt>
+      <dd>
+        <label><input type="checkbox" name="category" value="お問い合わせ">お問い合わせ</label>
+        <label><input type="checkbox" name="category" value="新規お申込み">新規お申込み</label>
+        <label><input type="checkbox" name="category" value="資料請求">資料請求</label>
+      </dd>
+      <dt>お名前<span class="must">※</span></dt>
+      <dd>
+        <input type="text" name="name" required placeholder="田中太郎">
+      <dt>ふりがな<span class="must">※</span></dt>
+      <dd>
+      <input type="text" name="name" required placeholder="たなかたろう">
+    </dd>
+      <dt>メールアドレス<span class="must">※</span></dt>
+      <dd>
+          <input type="email" name="mail" required placeholder="example.com">
+        </dd>
+      <dt>性別</dt>
+      <dd>
+        <label>
+          <input type="radio" name="gender" value="男">男
+        </label>
+        <label>
+          <input type="radio" name="gender" value="女">女
+        </label>
+      </dd>
+      <dt>どこでお知りになりましたか?</dt>
+        <dd>
+          <select name="how">
+            <option value="チラシ・DM">チラシ・DM</option>
+            <option value="知り合いからの紹介">知り合いからの紹介</option>
+            <option value="その他">その他</option>
+          </select>
+     
+        </dd>
+      <dt>お問い合わせ・ご質問内容</dt>
+      <dd>
+        <textarea name="comment"  cols="20" rows="5"></textarea>
+      </dd>
+     
+    </dl>
+    <p class="submit"><input type="submit" name="submit" value="送信する"></p>
+  </form>
+</body>
+</html>
